@@ -1,18 +1,30 @@
 h1 {
   color: green;
-}
-h1 {
-  background-color:
+  text-align: center;
 }
 
+#loyd #tb{
+  position: relative;
+  left: -457px;
+  top: -18px;
+}
+
+}
+#loyd h1{
+  position: relative;
+  left: -457px;
+  bottom: -18px;
+
+}
 
 body{
-  background-color : grey
+  background-image: url("ground.jpg");
 }
+
 #tunnel {
   object-fit: cover;
   width:230px;
-  height:230px;
+  height:300px;
 }
 table, th, tr, td{
   border-radius: 2px;
@@ -21,8 +33,59 @@ table, th, tr, td{
 
 
 }
+#cairo{
+  position: relative;
+  left:50px;
+  width: 400px;
+  height: 400px;
+}
+#nile{
+  position: relative;
+  width: 400px;
+  left: 500px;
+  top: -403px
+  }
+#move{
+  position: relative;
+  left: 0px;
+  width: 500px;
+  top: -300px
 
-#tb {
+}
+#portswood{
+position: relative;
+left: 500px
+}
+
+#loyd{
+  text-align: right;
+
+}
+
+#castle{
+  position: relative;
+  right: -30px
+}
+#museum{
+  position: relative;
+  left: 300px;
+  width: 500px;
+  top: -250px;
+}
+#clock{
+  position: relative;
+  left:500px;
+
+}
+#time{
+  position: relative;
+  left: 0px;
+  width: 500px;
+  top: -250px
+
+}
+#tb{
+  left: 400px;
   width: 40%;
 }
 
@@ -32,4 +95,7 @@ table, th, tr, td{
 
 #tower{
   transform: rotate(90deg);
+}
+hr{
+  clear: both;
 }
